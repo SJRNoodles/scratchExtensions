@@ -6,7 +6,7 @@ class sau {
         "blocks":[
             {
             "opcode": "pi",
-            "blockType": "command",
+            "blockType": "reporter",
             "text": "pi",
             }
         ],
