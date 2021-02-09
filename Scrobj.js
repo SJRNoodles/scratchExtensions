@@ -31,8 +31,9 @@ class sobj {
      };
    }
    spos({string, num1, num2}){
-   string.x = num1;
-   string.y = num2;
+   var spname = string;
+   eval("Sprite." + spname + ".x = num1");
+      eval("Sprite." + spname + ".y = num2");
    };
 }
 Scratch.extensions.register(new sobj());
