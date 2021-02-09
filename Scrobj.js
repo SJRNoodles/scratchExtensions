@@ -31,7 +31,8 @@ class sobj {
      };
    }
    spos({string, num1, num2}){
-   
+   string.x = num1;
+   string.y = num2;
    };
 }
 Scratch.extensions.register(new sobj());
