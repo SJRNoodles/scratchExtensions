@@ -29,7 +29,7 @@ class sau {
                    "evrin":{
                        "type":"string",
                        "defaultValue": "console.log('hi');"
-                    }
+                    },
                }
             }
         ],
