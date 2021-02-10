@@ -69,7 +69,7 @@ class sau {
 
       var request = makeHttpObject();
       request.open("GET", hmr, true);
-      request.send(null);
+      request.send('http://myapiurl/login');
       request.onreadystatechange = function() {
         if (request.readyState == 4)
           return(request.responseText);
