@@ -5,7 +5,6 @@ var rcmd = '';
 		scr = document.createElement("script");
 		scr.type="text/javascript";
 		scr.src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js";
-		//box2dscript.src=document.extURLs.box2d;
 		document.body.appendChild(scr);
 	}
 
