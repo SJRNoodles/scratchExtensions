@@ -24,7 +24,7 @@ class sau {
            {
             "opcode": "evr",
             "blockType": "reporter",
-            "text": "output of [evrin]",
+            "text": "eval report [evrin]",
               "arguments":{
                    "evrin":{
                        "type":"string",
