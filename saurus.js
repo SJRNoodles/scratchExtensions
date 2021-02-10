@@ -28,7 +28,7 @@ class sau {
               "arguments"{
                    "evrin":{
                        "type":"string",
-                       "defaultValue": "console.log('hi');"
+                       "defaultValue": "js goes here"
                     },
                }
             }
