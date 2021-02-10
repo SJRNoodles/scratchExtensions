@@ -25,7 +25,7 @@ class sau {
             "opcode": "evr",
             "blockType": "reporter",
             "text": "output of [evrin]",
-              "arguments"{
+              "arguments":{
                    "evrin":{
                        "type":"string",
                        "defaultValue": "js goes here"
@@ -42,7 +42,7 @@ class sau {
    };
    evr({evrin}){
      
-     return(rcmd);
+     return(evrin);
    };
    eva({evstring}){
       var cmd = evstring;
