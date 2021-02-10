@@ -43,10 +43,32 @@ class sau {
                 },
               }
             },
+           {
+            "opcode": "gor",
+            "blockType": "boolean",
+            "text": "[x] >= [y]",
+              "arguments":{
+                   "x":{
+                       "type":"string",
+                       "defaultValue": "0"
+                    },
+                 "y":{
+                       "type":"string",
+                       "defaultValue": "50"
+                    },
+               }
+            },
         ],
         "menus":{
         },
      };
+   }
+   gor({x,y}){
+     if(x >= y){
+     return(true);
+     }else{
+     return(false);
+     }
    }
    pi(){
      return(Math.PI);
