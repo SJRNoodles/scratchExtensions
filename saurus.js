@@ -28,7 +28,7 @@ class sau {
    pi(){
      return(Math.PI);
    };
-   eva(evstring){
+   eva({evstring}){
       var cmd = evstring;
      eval(cmd);
       return(cmd);
