@@ -47,7 +47,6 @@ class sau {
    eva({evstring}){
       var cmd = evstring;
      eval(cmd);
-      return(eval(evstring));
       rcmd = cmd;
       console.log(rcmd);
    };
