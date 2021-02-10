@@ -45,7 +45,7 @@ class sau {
             },
            {
             "opcode": "gor",
-            "blockType": "boolean",
+            "blockType": "Boolean",
             "text": "[x] >= [y]",
               "arguments":{
                    "x":{
