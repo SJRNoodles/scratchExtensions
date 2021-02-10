@@ -33,13 +33,13 @@ class sau {
                }
             },
            {
-            "opcode": "ghtm",
+            "opcode": "deb",
             "blockType": "reporter",
-            "text": "html request [hmr]",
+            "text": "debug [input]",
            "arguments":{
-              "hmr":{
+              "input":{
                    "type":"string",
-                   "defaultValue":"'https://youtube.com'"
+                   "defaultValue":"cat is walking"
                 },
               }
             },
@@ -55,9 +55,10 @@ class sau {
      
      return(eval(evrin));
    };
-   ghtm({hmr}){
+   deb({input}){
       
-      $.ajax({ url:hmr, success: function(data) { return(data); } });
+      console.log(input);
+      return(input);
    };
    eva({evstring}){
       var cmd = evstring;
