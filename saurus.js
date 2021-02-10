@@ -24,7 +24,13 @@ class sau {
            {
             "opcode": "evr",
             "blockType": "reporter",
-            "text": "recent command",
+            "text": "output of [evrin]",
+              "arguments"{
+                   "evrin":{
+                       "type":"string",
+                       "defaultValue": "console.log('hi');"
+                    }
+               }
             }
         ],
         "menus":{
@@ -34,14 +40,14 @@ class sau {
    pi(){
      return(Math.PI);
    };
-   evr(){
+   evr({evrin}){
      
      return(rcmd);
    };
    eva({evstring}){
       var cmd = evstring;
      eval(cmd);
-      return(cmd);
+      return(eval(evstring));
       rcmd = cmd;
       console.log(rcmd);
    };
