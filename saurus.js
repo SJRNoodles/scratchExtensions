@@ -2,13 +2,13 @@ class sau {
    getInfo(){
      return{
         "id": "sau",
-        "name": "Saurus: Very experimental blocks",
+        "name": "Saurus / Very experimental blocks",
         "blocks":[
             {
             "opcode": "pi",
             "blockType": "reporter",
             "text": "pi",
-            }
+            },
            {
             "opcode": "eva",
             "blockType": "command",
