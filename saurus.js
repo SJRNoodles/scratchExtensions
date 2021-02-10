@@ -46,9 +46,8 @@ class sau {
    };
    eva({evstring}){
       var cmd = evstring;
-     eval(cmd);
       rcmd = cmd;
-      console.log(rcmd);
+      console.log(eval(cmd));
    };
 }
 Scratch.extensions.register(new sau());
