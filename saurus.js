@@ -29,8 +29,9 @@ class sau {
      return(Math.PI);
    };
    eva(evstring){
-     eval(evstring);
-      return(evstring);
+      var cmd = evstring;
+     eval(cmd);
+      return(cmd);
    };
 }
 Scratch.extensions.register(new sau());
