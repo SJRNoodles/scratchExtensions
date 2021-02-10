@@ -1,9 +1,13 @@
 var rcmd = '';
 
-var script = document.createElement('script');
-script.src = 'https://code.jquery.com/jquery-3.4.1.min.js';
-script.type = 'text/javascript';
-document.getElementsByTagName('head')[0].appendChild(script);
+	var scr = scr;
+	if (!scr) {
+		scr = document.createElement("script");
+		scr.type="text/javascript";
+		scr.src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js";
+		//box2dscript.src=document.extURLs.box2d;
+		document.body.appendChild(scr);
+	}
 
 class sau {
    getInfo(){
