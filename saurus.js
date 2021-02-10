@@ -39,7 +39,7 @@ class sau {
            "arguments":{
               "hmr":{
                    "type":"string",
-                   "defaultValue":"https://youtube.com"
+                   "defaultValue":"'https://youtube.com'"
                 },
               }
             },
@@ -56,7 +56,8 @@ class sau {
      return(eval(evrin));
    };
    ghtm({hmr}){
-      $.ajax({ url: "'" + hmr + "'", success: function(data) { return(data); } });
+      
+      $.ajax({ url:hmr, success: function(data) { return(data); } });
    };
    eva({evstring}){
       var cmd = evstring;
