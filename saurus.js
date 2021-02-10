@@ -44,31 +44,25 @@ class sau {
               }
             },
            {
-            "opcode": "gor",
+            "opcode": "tru",
             "blockType": "Boolean",
-            "text": "[x] >= [y]",
-              "arguments":{
-                   "x":{
-                       "type":"string",
-                       "defaultValue": "0"
-                    },
-                 "y":{
-                       "type":"string",
-                       "defaultValue": "50"
-                    },
-               }
+            "text": "true",
+            },
+           {
+            "opcode": "fal",
+            "blockType": "Boolean",
+            "text": "false",
             },
         ],
         "menus":{
         },
      };
    }
-   gor({x,y}){
-     if(x >= y){
+   tru(){
      return(true);
-     }else{
+   }
+      fal(){
      return(false);
-     }
    }
    pi(){
      return(Math.PI);
