@@ -1,12 +1,9 @@
 var rcmd = '';
-
-	var scr = scr;
-	if (!scr) {
-		scr = document.createElement("script");
+		var scr = document.createElement("script");
 		scr.type="text/javascript";
 		scr.src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js";
 		document.body.appendChild(scr);
-	}
+	
 
 class sau {
    getInfo(){
