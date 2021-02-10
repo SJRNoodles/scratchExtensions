@@ -1,3 +1,5 @@
+var rcmd = "";
+
 class sau {
    getInfo(){
      return{
@@ -19,6 +21,11 @@ class sau {
                    "defaultValue":"javascript goes here"
                 },
               }
+            },
+           {
+            "opcode": "evr",
+            "blockType": "reporter",
+            "text": "recent command",
             }
         ],
         "menus":{
@@ -28,10 +35,15 @@ class sau {
    pi(){
      return(Math.PI);
    };
+   evr(){
+     
+     return(rcmd);
+   };
    eva({evstring}){
       var cmd = evstring;
      eval(cmd);
       return(cmd);
+      rcmd = cmd;
    };
 }
 Scratch.extensions.register(new sau());
