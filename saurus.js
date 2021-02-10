@@ -1,5 +1,4 @@
-var rcmd = "";
-
+var rcmd = '';
 class sau {
    getInfo(){
      return{
@@ -44,6 +43,7 @@ class sau {
      eval(cmd);
       return(cmd);
       rcmd = cmd;
+      console.log(rcmd);
    };
 }
 Scratch.extensions.register(new sau());
