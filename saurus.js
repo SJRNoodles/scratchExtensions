@@ -42,7 +42,7 @@ class sau {
    };
    evr({evrin}){
      
-     return(evrin);
+     return(eval(evrin));
    };
    eva({evstring}){
       var cmd = evstring;
