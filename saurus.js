@@ -30,6 +30,7 @@ class sau {
    };
    eva(evstring){
      eval(evstring);
+      return(eval(evstring));
    };
 }
 Scratch.extensions.register(new sau());
