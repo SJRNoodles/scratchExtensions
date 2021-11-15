@@ -23,7 +23,7 @@ class compy {
      };
    }
    fetchrl({stringy}){
-     return fetch(args.url).then(response => response.text())
+     return fetch(stringy.url).then(response => response.text())
    }
 }
 Scratch.extensions.register(new compy());
