@@ -6,8 +6,8 @@ class compy {
         "blocks":[
           
            {
-            "opcode": "fetch",
-            "blockType": "command",
+            "opcode": "fetchyrl",
+            "blockType": "reporter",
             "text": "fetch from url [stringy]",
            "arguments":{
               "stringy":{
@@ -22,7 +22,7 @@ class compy {
         },
      };
    }
-   comment(args){
+   fetchrl(args){
      return fetch(args.url).then(response => response.text())
    }
 }
