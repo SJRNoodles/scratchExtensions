@@ -8,7 +8,7 @@ class compy {
            {
             "opcode": "fetchrl",
             "blockType": "reporter",
-            "text": "fetch from url [stringy]",
+            "text": "fetch [stringy]",
            "arguments":{
               "stringy":{
                    "type":"string",
