@@ -6,7 +6,7 @@ class compy {
         "blocks":[
           
            {
-            "opcode": "fetchyrl",
+            "opcode": "fetchrl",
             "blockType": "reporter",
             "text": "fetch from url [stringy]",
            "arguments":{
