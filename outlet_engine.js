@@ -2,7 +2,7 @@ class compy {
    getInfo(){
      return{
         "id": "compy",
-        "name": "outlet",
+        "name": "outlet engine",
         "blocks":[
           
            {
