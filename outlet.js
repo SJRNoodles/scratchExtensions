@@ -22,7 +22,7 @@ class compy {
         },
      };
    }
-   fetchrl(args){
+   fetchrl({stringy}){
      return fetch(args.url).then(response => response.text())
    }
 }
