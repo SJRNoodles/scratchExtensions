@@ -6,13 +6,13 @@ class compy {
         "blocks":[
           
            {
-            "opcode": "comment",
+            "opcode": "fetch",
             "blockType": "command",
-            "text": "comment [stringy]",
+            "text": "fetch from url [stringy]",
            "arguments":{
               "stringy":{
                    "type":"string",
-                   "defaultValue":""
+                   "defaultValue":"https://mikedev101.github.io/cloudlink/fetch_test"
                 },
               }
             },
@@ -22,8 +22,8 @@ class compy {
         },
      };
    }
-   comment(){
-     return(true);
+   comment(args){
+     return fetch(args.url).then(response => response.text())
    }
 }
 Scratch.extensions.register(new compy());
